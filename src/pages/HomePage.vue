@@ -8,7 +8,7 @@ const value = ref("console.log('hello world')")
 const snippetName = ref("")
 
 async function sendData() {
-   console.log(value.value)
+   console.log({userName: snippetName.value, code: value.value})
 }
 
 </script>
